@@ -1,0 +1,50 @@
+{
+  "name": "manga",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.36.3",
+    "@auth/prisma-adapter": "^2.7.4",
+    "@google-cloud/firestore": "^7.11.0",
+    "@google-cloud/storage": "^7.15.0",
+    "@google-cloud/vertexai": "^1.9.3",
+    "@mantine/core": "^7.16.0",
+    "@mantine/hooks": "^7.16.0",
+    "@mantine/notifications": "^7.16.1",
+    "@tabler/icons-react": "^3.28.1",
+    "fabric": "^5.5.1",
+    "lodash": "^4.17.21",
+    "next": "15.1.4",
+    "next-auth": "^5.0.0-beta.25",
+    "openai": "^4.80.0",
+    "re-resizable": "^6.10.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.54.2",
+    "replicate": "^1.0.1",
+    "sharp": "^0.33.5",
+    "tldraw": "^3.7.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/fabric": "^5.3.9",
+    "@types/lodash": "^4.17.14",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.4",
+    "postcss": "^8.5.1",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
+    "prisma": "^6.2.1",
+    "typescript": "^5"
+  }
+}
